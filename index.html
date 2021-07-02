@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css"> <!-- import css -->
+
+    <title>Ubots Project</title>
+  </head>
+  <body>
+    <div>
+        <div class="split left marginLeft"> <!-- Esquerda -->
+            <h1>Opções</h1>
+            <div class="marginLeft">
+                <div class="btnConfigs">
+                     <label>Atividade 1</label><br>
+                     <button type="button" class="btn btn-primary" onclick=listarPorValorTotal()>Listar clientes por maior valor total</button> <br>
+                </div>
+                <div class="btnConfigs">
+                    <label>Atividade 2</label><br>
+                    <button type="button" class="btn btn-primary" onclick=listarUnicaCompra()>Listar clientes com maior Compra (2016)</button> <br>
+                </div>
+                <div class="btnConfigs">
+                    <label>Atividade 3</label><br>
+                    <button type="button" class="btn btn-primary" onclick=listarClientesFieis()>Listar clientes mais fiel</button> <br>
+                </div>
+                <div class="btnConfigs">
+                    <label>Atividade 4</label><br>
+                    <button type="button" class="btn btn-primary" onclick=listarRecomendacao()>Recomendar Vinho!</button> <br>
+                </div>
+            </div>
+        </div>
+        <div class="split right marginRight"> <!-- Direita -->
+            <div id="rightSide">
+                <h1>
+                    Retorno
+                </h1>
+                
+            </div>  
+            <div id="righContent">
+
+            </div>  
+        </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/utils.js"></script>
+    <script type="text/javascript" src="js/apis.js"></script> <!-- import apis js -->
+    <script type="text/javascript" src="js/scripts.js"></script> <!-- import scrips js -->       
+</body>
+</html>
